@@ -47,11 +47,7 @@ const config = {
           editUrl:
             'https://github.com/whalepass/documentation/tree/master/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -70,33 +66,33 @@ const config = {
           alt: 'Whalepass docs',
           src: 'img/logo.svg',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docs',
-          },
-          {to: 'https://blog.whalepass.gg/', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
-        ],
+        // items: [
+        //   {
+        //     type: 'docSidebar',
+        //     sidebarId: 'tutorialSidebar',
+        //     position: 'left',
+        //     label: 'Docs',
+        //   },
+        //   {href: 'https://blog.whalepass.gg/', label: 'Blog', position: 'left'},
+        //   // {
+        //   //   href: 'https://github.com/facebook/docusaurus',
+        //   //   label: 'GitHub',
+        //   //   position: 'right',
+        //   // },
+        // ],
       },
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Getting Started',
-                to: '/docs/intro',
-              },
-            ],
-          },
+          // {
+            // title: 'Docs',
+            // items: [
+            //   {
+            //     label: 'Getting Started',
+            //     to: '/intro',
+            //   },
+            // ],
+          // },
           {
             title: 'Community',
             items: [
