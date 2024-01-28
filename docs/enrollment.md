@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# Enrolling a player to your game
+# Enrolling A Player To Your Game
 
 ![Whalepass.gg](https://i.imgur.com/zwUqWaS.png)
 
