@@ -4,52 +4,51 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Whalepass',
-  tagline: 'A monetization solution for games',
-  favicon: 'img/favicon.ico',
+  title: "Whalepass",
+  tagline: "A monetization solution for games",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://docs.whalepass.gg',
+  url: "https://docs.whalepass.gg",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/documentation",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'whalepass', // Usually your GitHub org/user name.
-  projectName: 'documentation', // Usually your repo name.
+  organizationName: "whalepass", // Usually your GitHub org/user name.
+  projectName: "documentation", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
-          sidebarPath: './sidebars.js',
+          routeBasePath: "/",
+          sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/whalepass/documentation/tree/master/',
+          editUrl: "https://github.com/whalepass/documentation/tree/master/",
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -59,12 +58,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/hero.png',
+      image: "img/hero.png",
       navbar: {
-        title: '',
+        title: "",
         logo: {
-          alt: 'Whalepass docs',
-          src: 'img/logo.svg',
+          alt: "Whalepass docs",
+          src: "img/logo.svg",
         },
         // items: [
         //   {
@@ -82,44 +81,44 @@ const config = {
         // ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           // {
-            // title: 'Docs',
-            // items: [
-            //   {
-            //     label: 'Getting Started',
-            //     to: '/intro',
-            //   },
-            // ],
+          // title: 'Docs',
+          // items: [
+          //   {
+          //     label: 'Getting Started',
+          //     to: '/intro',
+          //   },
+          // ],
           // },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Github Discussion',
-                href: 'https://github.com/orgs/whalepass/discussions',
+                label: "Github Discussion",
+                href: "https://github.com/orgs/whalepass/discussions",
               },
               {
-                label: 'Discord Server',
-                href: 'https://discord.gg/8pSp26Pu9j',
+                label: "Discord Server",
+                href: "https://discord.gg/8pSp26Pu9j",
               },
               {
-                label: 'Twitter',
-                href: 'https://x.com/whalepass_gg',
+                label: "Twitter",
+                href: "https://x.com/whalepass_gg",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Blog',
-                href: 'https://blog.whalepass.gg',
+                label: "Blog",
+                href: "https://blog.whalepass.gg",
               },
               {
-                label: 'Linkedin',
-                href: 'https://www.linkedin.com/company/whalepass/',
+                label: "Linkedin",
+                href: "https://www.linkedin.com/company/whalepass/",
               },
             ],
           },
@@ -131,9 +130,9 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: "dark",
         disableSwitch: true,
-        respectPrefersColorScheme: false
+        respectPrefersColorScheme: false,
       },
     }),
 };
