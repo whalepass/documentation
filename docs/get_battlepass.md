@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 ---
 # Getting A Battlepass with Levels, Challenges and Rewards
 
