@@ -44,7 +44,8 @@ Expected Response:
           "battlepassId": "string",
           "name": "string",
           "amount": 0,
-          "amountInDecimal": 0
+          "amountInDecimal": 0,
+          "mediaUrl": "string"
         }
       ]
     }
