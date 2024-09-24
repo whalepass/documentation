@@ -23,7 +23,8 @@ Expected Response:
       "rewardId": "string",
       "battlepassId": "string",
       "name": "string",
-      "amount": 0
+      "amount": 0,
+      "mediaUrl": "string"
     }
   ]
 }
