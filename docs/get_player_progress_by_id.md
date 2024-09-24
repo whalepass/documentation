@@ -50,7 +50,8 @@ Expected Response:
                 "battlepassId": "string",
                 "name": "string",
                 "amount": 0,
-                "amountInDecimal": 0
+                "amountInDecimal": 0,
+                "mediaUrl": "string"
               }
             ],
             "premiumTierRewards": [
@@ -60,7 +61,8 @@ Expected Response:
                 "battlepassId": "string",
                 "name": "string",
                 "amount": 0,
-                "amountInDecimal": 0
+                "amountInDecimal": 0,
+                "mediaUrl": "string"
               }
             ],
             "completed": true
@@ -82,7 +84,8 @@ Expected Response:
                 "battlepassId": "string",
                 "name": "string",
                 "amount": 0,
-                "amountInDecimal": 0
+                "amountInDecimal": 0,
+                "mediaUrl": "string"
               }
             ],
             "completed": true
