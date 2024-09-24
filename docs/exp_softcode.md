@@ -51,8 +51,7 @@ Expected Response:
           "tokenId": "string",
           "amount": 0,
           "amountInDecimal": 0,
-          "createdAt": "2023-12-27T09:53:34.155Z",
-          "updatedAt": "2023-12-27T09:53:34.155Z"
+          "mediaUrl": "string"
         }
       ],
       "premiumTierRewards": [
@@ -63,8 +62,7 @@ Expected Response:
           "tokenId": "string",
           "amount": 0,
           "amountInDecimal": 0,
-          "createdAt": "2023-12-27T09:53:34.155Z",
-          "updatedAt": "2023-12-27T09:53:34.155Z"
+          "mediaUrl": "string"
         }
       ]
     }
