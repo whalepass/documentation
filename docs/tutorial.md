@@ -220,7 +220,7 @@ When making API calls, include the following headers in your request:
 
 ### 1. Enrolling Players via API
 
-**Endpoint**: Enrollment API Documentation  
+**Endpoint**: [Enrollment Api Endpoint](https://www.whalepass.gg/documentation/enrollment).
 To enroll a player in your Battlepass:
 
 - Send the player's **playerId** and **gameId**.
@@ -235,7 +235,7 @@ Players progress in their Battlepass by earning XP. Two methods are available:
 #### Method 1: Directly Increment XP (Hardcode Method)
 
 - Use the API to manually add XP to a player's account.
-- **Endpoint**: XP Hardcode API Documentation.
+- **Endpoint**: [XP Hardcode API Documentation](https://www.whalepass.gg/documentation/exp_hardcode).
 
 #### Method 2: Assign XP via Game Actions (Softcode Method)
 
@@ -243,13 +243,13 @@ Players progress in their Battlepass by earning XP. Two methods are available:
   - Completing a level.
   - Defeating a boss.
   - Achieving a milestone.
-- **Endpoint**: XP Softcode API Documentation.
+- **Endpoint**: [XP Softcode API Documentation](https://www.whalepass.gg/documentation/exp_softcode).
 
 ---
 
 ### 3. Completing Challenges for Players
 
-**Endpoint**: Player Challenge API Documentation  
+**Endpoint**: [Player Challenge API Documentation](https://www.whalepass.gg/documentation/player_challenge)  
 Mark challenges as completed by sending:
 
 - **playerId**: The ID of the player.
@@ -263,7 +263,7 @@ This updates the player's progress and rewards them.
 
 Retrieve detailed information about a player's current progress in their Battlepass:
 
-- **Endpoint**: Get Player Progress API Documentation.
+- **Endpoint**: [Get Player Progress API Documentation](https://www.whalepass.gg/documentation/get_player_progress).
 
 What you can retrieve:
 - Overall progress toward completing the Battlepass.
@@ -273,7 +273,7 @@ What you can retrieve:
 #### Alternative: Basic Player Progress
 
 - Use a simplified API for core progress details (e.g., no levels or challenges).  
-  - **Endpoint**: Get Player Progress Base API Documentation.
+  - **Endpoint**: [Get Player Progress Base API Documentation](https://www.whalepass.gg/documentation/get_player_progress_base).
 
 ---
 
@@ -281,7 +281,7 @@ What you can retrieve:
 
 List rewards and items a player has earned through their Battlepass progress:
 
-- **Endpoint**: Get Player Inventory API Documentation.
+- **Endpoint**: [Get Player Inventory API Documentation](https://www.whalepass.gg/documentation/get_player_inventory).
 
 What you can retrieve:
 - Items earned from completed levels.
@@ -293,7 +293,7 @@ What you can retrieve:
 
 Redirect players to manage their on-chain rewards and explore other games:
 
-- **Endpoint**: Redirect Player API Documentation.
+- **Endpoint**: [Redirect Player API Documentation](https://www.whalepass.gg/documentation/redirect_player).
 
 **Important Note**:  
 - Each link is user-specific and expires after a set time.
