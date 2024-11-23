@@ -200,7 +200,7 @@ When making API calls, include the following headers in your request:
 4. Click the displayed game name to open additional options.
 5. Find the option labeled **Copy Active Game ID** and click the copy icon.
    ![image](../static/img/copy-game-id.png)
-7. Use the copied Game ID in your API integrations.
+6. Use the copied Game ID in your API integrations.
 
 ### Finding Your Game Action ID
 
