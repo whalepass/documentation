@@ -38,6 +38,10 @@ A battlepass is a progression system used in games to reward players for complet
 
 Fortnite Battlepass Level/Challenge Examples:
 
+<img width="639" alt="levelview" src="https://github.com/user-attachments/assets/73333534-216b-498a-a531-1b1dcc4f249b">
+
+<img width="635" alt="challengeview" src="https://github.com/user-attachments/assets/50fa8bc5-f13a-4235-adc3-589be5e7dfd4">
+
 ### Benefits for Developers
 
 For developers, a battle pass is a powerful tool to:
@@ -109,7 +113,10 @@ For this tutorial, we will create our rewards on the **Moonbeam Chain**! Follow 
    - Description: Add a description to explain what this collection represents.
    - Symbol: Set a symbol for the collection (e.g., "BK").
    - Chain: Select Moonbeam as the chain for your on-chain rewards.
-4. Save your collection.
+4. Once done, click Save to create your collection. You will have the below indicator for your on-chain reward collection
+![image](https://github.com/user-attachments/assets/a3570063-f778-45ba-8483-2ce17f07ad6b)
+5. Wait until the status of the reward collection changes to complete.
+![image](https://github.com/user-attachments/assets/8911a583-4881-4899-af2d-8536a36f41c6)
 
 **Tip**: You may need to refresh your dashboard until the collection status changes to complete.
 
@@ -141,6 +148,8 @@ These rewards are now ready to be traded or gifted on the marketplace.
 2. Players will:
    - Earn XP through in-game activities.
    - Progress through levels to unlock rewards.
+  
+![image](https://github.com/user-attachments/assets/7a559da5-1204-4676-b3af-5f2a43cd8c80)
 
 ### Step 3: Add Challenges
 
@@ -148,6 +157,8 @@ Challenges are single-time objectives that players can complete to earn rewards.
 
 - Independent of level progression.
 - Tied to specific in-game actions or milestones (e.g., "Complete 10 matches" or "Achieve a certain score").
+
+![image](https://github.com/user-attachments/assets/6b100ac5-d03e-4f23-8b1d-95f29801ca1f)
 
 ---
 
@@ -185,9 +196,11 @@ When making API calls, include the following headers in your request:
 
 1. Log in to your Whalepass Dashboard.
 2. Locate the **Game Section** in the lower-left corner (e.g., "Game: Battlepass Game").
-3. Click the displayed game name to open additional options.
-4. Find the option labeled **Copy Active Game ID** and click the copy icon.
-5. Use the copied Game ID in your API integrations.
+   ![image](https://github.com/user-attachments/assets/55f0b3f9-02a9-4834-9d60-3b655f9913e7)
+4. Click the displayed game name to open additional options.
+5. Find the option labeled **Copy Active Game ID** and click the copy icon.
+   ![image](https://github.com/user-attachments/assets/07cab0dd-87c4-4d92-b941-851fbdccc3d8)
+7. Use the copied Game ID in your API integrations.
 
 ### Finding Your Game Action ID
 
@@ -207,7 +220,7 @@ When making API calls, include the following headers in your request:
 
 ### 1. Enrolling Players via API
 
-**Endpoint**: Enrollment API Documentation  
+**Endpoint**: [Enrollment Api Endpoint](https://www.whalepass.gg/documentation/enrollment).
 To enroll a player in your Battlepass:
 
 - Send the player's **playerId** and **gameId**.
@@ -222,7 +235,7 @@ Players progress in their Battlepass by earning XP. Two methods are available:
 #### Method 1: Directly Increment XP (Hardcode Method)
 
 - Use the API to manually add XP to a player's account.
-- **Endpoint**: XP Hardcode API Documentation.
+- **Endpoint**: [XP Hardcode API Documentation](https://www.whalepass.gg/documentation/exp_hardcode).
 
 #### Method 2: Assign XP via Game Actions (Softcode Method)
 
@@ -230,13 +243,13 @@ Players progress in their Battlepass by earning XP. Two methods are available:
   - Completing a level.
   - Defeating a boss.
   - Achieving a milestone.
-- **Endpoint**: XP Softcode API Documentation.
+- **Endpoint**: [XP Softcode API Documentation](https://www.whalepass.gg/documentation/exp_softcode).
 
 ---
 
 ### 3. Completing Challenges for Players
 
-**Endpoint**: Player Challenge API Documentation  
+**Endpoint**: [Player Challenge API Documentation](https://www.whalepass.gg/documentation/player_challenge)  
 Mark challenges as completed by sending:
 
 - **playerId**: The ID of the player.
@@ -250,7 +263,7 @@ This updates the player's progress and rewards them.
 
 Retrieve detailed information about a player's current progress in their Battlepass:
 
-- **Endpoint**: Get Player Progress API Documentation.
+- **Endpoint**: [Get Player Progress API Documentation](https://www.whalepass.gg/documentation/get_player_progress).
 
 What you can retrieve:
 - Overall progress toward completing the Battlepass.
@@ -260,7 +273,7 @@ What you can retrieve:
 #### Alternative: Basic Player Progress
 
 - Use a simplified API for core progress details (e.g., no levels or challenges).  
-  - **Endpoint**: Get Player Progress Base API Documentation.
+  - **Endpoint**: [Get Player Progress Base API Documentation](https://www.whalepass.gg/documentation/get_player_progress_base).
 
 ---
 
@@ -268,7 +281,7 @@ What you can retrieve:
 
 List rewards and items a player has earned through their Battlepass progress:
 
-- **Endpoint**: Get Player Inventory API Documentation.
+- **Endpoint**: [Get Player Inventory API Documentation](https://www.whalepass.gg/documentation/get_player_inventory).
 
 What you can retrieve:
 - Items earned from completed levels.
@@ -280,7 +293,7 @@ What you can retrieve:
 
 Redirect players to manage their on-chain rewards and explore other games:
 
-- **Endpoint**: Redirect Player API Documentation.
+- **Endpoint**: [Redirect Player API Documentation](https://www.whalepass.gg/documentation/redirect_player).
 
 **Important Note**:  
 - Each link is user-specific and expires after a set time.
