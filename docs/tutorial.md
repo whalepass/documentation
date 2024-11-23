@@ -38,9 +38,9 @@ A battlepass is a progression system used in games to reward players for complet
 
 Fortnite Battlepass Level/Challenge Examples:
 
-<img width="639" alt="levelview" src="../static/img/levelview.png">
+![image](../static/img/levelview.png)
 
-<img width="635" alt="challengeview" src="../static/img/challengeview.png">
+![image](../static/img/challengeview.png)
 
 ### Benefits for Developers
 
