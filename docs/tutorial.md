@@ -38,9 +38,9 @@ A battlepass is a progression system used in games to reward players for complet
 
 Fortnite Battlepass Level/Challenge Examples:
 
-<img width="639" alt="levelview" src="static/img/levelview.png">
+<img width="639" alt="levelview" src="../static/img/levelview.png">
 
-<img width="635" alt="challengeview" src="static/img/challengeview.png">
+<img width="635" alt="challengeview" src="../static/img/challengeview.png">
 
 ### Benefits for Developers
 
@@ -114,9 +114,9 @@ For this tutorial, we will create our rewards on the **Moonbeam Chain**! Follow 
    - Symbol: Set a symbol for the collection (e.g., "BK").
    - Chain: Select Moonbeam as the chain for your on-chain rewards.
 4. Once done, click Save to create your collection. You will have the below indicator for your on-chain reward collection
-![image](static/img/collection.png)
+![image](../static/img/collection.png)
 5. Wait until the status of the reward collection changes to complete.
-![image](static/img/collection-active.png)
+![image](../static/img/collection-active.png)
 
 **Tip**: You may need to refresh your dashboard until the collection status changes to complete.
 
