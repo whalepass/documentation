@@ -3,6 +3,8 @@ sidebar_position: 13
 ---
 # Whalepass Tutorial
 
+![Whalepass.gg](https://i.imgur.com/zwUqWaS.png)
+
 Welcome to the Whalepass tutorial! This guide will help you set up and manage your battle pass to enhance player engagement and retention.
 
 ---
