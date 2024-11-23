@@ -38,9 +38,9 @@ A battlepass is a progression system used in games to reward players for complet
 
 Fortnite Battlepass Level/Challenge Examples:
 
-<img width="639" alt="levelview" src="https://github.com/user-attachments/assets/73333534-216b-498a-a531-1b1dcc4f249b">
+<img width="639" alt="levelview" src="static/img/levelview.png">
 
-<img width="635" alt="challengeview" src="https://github.com/user-attachments/assets/50fa8bc5-f13a-4235-adc3-589be5e7dfd4">
+<img width="635" alt="challengeview" src="static/img/challengeview.png">
 
 ### Benefits for Developers
 
@@ -114,9 +114,9 @@ For this tutorial, we will create our rewards on the **Moonbeam Chain**! Follow 
    - Symbol: Set a symbol for the collection (e.g., "BK").
    - Chain: Select Moonbeam as the chain for your on-chain rewards.
 4. Once done, click Save to create your collection. You will have the below indicator for your on-chain reward collection
-![image](https://github.com/user-attachments/assets/a3570063-f778-45ba-8483-2ce17f07ad6b)
+![image](static/img/collection.png)
 5. Wait until the status of the reward collection changes to complete.
-![image](https://github.com/user-attachments/assets/8911a583-4881-4899-af2d-8536a36f41c6)
+![image](static/img/collection-active.png)
 
 **Tip**: You may need to refresh your dashboard until the collection status changes to complete.
 
@@ -149,7 +149,7 @@ These rewards are now ready to be traded or gifted on the marketplace.
    - Earn XP through in-game activities.
    - Progress through levels to unlock rewards.
   
-![image](https://github.com/user-attachments/assets/7a559da5-1204-4676-b3af-5f2a43cd8c80)
+![image](static/img/levels-view.png)
 
 ### Step 3: Add Challenges
 
@@ -158,7 +158,7 @@ Challenges are single-time objectives that players can complete to earn rewards.
 - Independent of level progression.
 - Tied to specific in-game actions or milestones (e.g., "Complete 10 matches" or "Achieve a certain score").
 
-![image](https://github.com/user-attachments/assets/6b100ac5-d03e-4f23-8b1d-95f29801ca1f)
+![image](static/img/challenges-view.png)
 
 ---
 
@@ -196,10 +196,10 @@ When making API calls, include the following headers in your request:
 
 1. Log in to your Whalepass Dashboard.
 2. Locate the **Game Section** in the lower-left corner (e.g., "Game: Battlepass Game").
-   ![image](https://github.com/user-attachments/assets/55f0b3f9-02a9-4834-9d60-3b655f9913e7)
+   ![image](static/img/games-listing.png)
 4. Click the displayed game name to open additional options.
 5. Find the option labeled **Copy Active Game ID** and click the copy icon.
-   ![image](https://github.com/user-attachments/assets/07cab0dd-87c4-4d92-b941-851fbdccc3d8)
+   ![image](static/img/copy-game-id.png)
 7. Use the copied Game ID in your API integrations.
 
 ### Finding Your Game Action ID
