@@ -149,7 +149,7 @@ These rewards are now ready to be traded or gifted on the marketplace.
    - Earn XP through in-game activities.
    - Progress through levels to unlock rewards.
   
-![image](static/img/levels-view.png)
+![image](../static/img/levels-view.png)
 
 ### Step 3: Add Challenges
 
@@ -158,7 +158,7 @@ Challenges are single-time objectives that players can complete to earn rewards.
 - Independent of level progression.
 - Tied to specific in-game actions or milestones (e.g., "Complete 10 matches" or "Achieve a certain score").
 
-![image](static/img/challenges-view.png)
+![image](../static/img/challenges-view.png)
 
 ---
 
@@ -196,10 +196,10 @@ When making API calls, include the following headers in your request:
 
 1. Log in to your Whalepass Dashboard.
 2. Locate the **Game Section** in the lower-left corner (e.g., "Game: Battlepass Game").
-   ![image](static/img/games-listing.png)
+   ![image](../static/img/games-listing.png)
 4. Click the displayed game name to open additional options.
 5. Find the option labeled **Copy Active Game ID** and click the copy icon.
-   ![image](static/img/copy-game-id.png)
+   ![image](../static/img/copy-game-id.png)
 7. Use the copied Game ID in your API integrations.
 
 ### Finding Your Game Action ID
