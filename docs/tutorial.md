@@ -6,8 +6,13 @@ sidebar_position: 13
 ![Whalepass.gg](https://i.imgur.com/zwUqWaS.png)
 
 Welcome to the Whalepass tutorial! This guide will help you set up and manage your battle pass to enhance player engagement and retention.
+
+**OPTINAL STEP**
+If you want to try the Whalepass API from a Rest Client then you can follow these steps:
 You can find the Insomnia Rest Collection [here](https://github.com/whalepass/documentation/blob/master/insomnia/whalepass_api_insomnia.json).
 Download it and import to Insomnia on your local environment and then update the environment variables of collection with your credentials.
+
+If you don't have Insomnia, you can download it from [here](https://insomnia.rest/)
 
 ---
 
