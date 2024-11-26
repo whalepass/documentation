@@ -5,12 +5,6 @@ sidebar_position: 3
 
 ![Whalepass.gg](https://i.imgur.com/zwUqWaS.png)
 
-| Left |  Center  | Right |
-|:-----|:--------:|------:|
-| L0   | **bold** | $1600 |
-| L1   |  `code`  |   $12 |
-| L2   | _italic_ |    $1 |
-
 Request:
 ```http
 POST https://api.whalepass.gg/enrollments
