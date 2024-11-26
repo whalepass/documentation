@@ -5,11 +5,11 @@ sidebar_position: 3
 
 ![Whalepass.gg](https://i.imgur.com/zwUqWaS.png)
 
-| Left |  Center  | Right |
-|:-----|:--------:|------:|
-| L0   | **bold** | $1600 |
-| L1   |  `code`  |   $12 |
-| L2   | _italic_ |    $1 |
+| Token Type   | Location         | Format                               |
+|:------------:|:--------------  :|-------------------------------------:|
+| Bearer Token | Authorization    | Authorization: Bearer YOURTOKEN      |
+| Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 |
+| Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN           |
 
 Request:
 ```http
