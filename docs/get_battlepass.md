@@ -5,6 +5,11 @@ sidebar_position: 10
 
 ![Whalepass.gg](https://i.imgur.com/zwUqWaS.png)
 
+| Token Type   | Location         | Format                               | Where To Find                              |
+|:------------:|:----------------:|--------------------------------------:|-------------------------------------------:|
+| Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 | https://dashboard.whalepass.gg/api-key     |
+| Path Field   | {battlepassId}   | battlepass/{battlepassId}            | https://dashboard.whalepass.gg/campaigns   |
+
 
 Request:
 ```http
