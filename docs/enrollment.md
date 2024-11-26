@@ -5,11 +5,11 @@ sidebar_position: 3
 
 ![Whalepass.gg](https://i.imgur.com/zwUqWaS.png)
 
-| Token Type   | Location         | Format                               |
-|:------------:|:---------------:|-------------------------------------:|
-| Bearer Token | Authorization    | Authorization: Bearer YOURTOKEN     |
-| Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                |
-| Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN          |
+| Token Type   | Location         | Format                               | URLs                                      |
+|:------------:|:---------------:|-------------------------------------:|------------------------------------------:|
+| Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                | https://dashboard.whalepass.gg/api-key   |
+| Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN          | https://dashboard.whalepass.gg/campaigns |
+
 
 
 Request:
