@@ -5,6 +5,13 @@ sidebar_position: 4
 
 ![Whalepass.gg](https://i.imgur.com/zwUqWaS.png)
 
+| Token Type   | Location         | Format                               | Where To Find                              |
+|:------------:|:----------------:|--------------------------------------:|-------------------------------------------:|
+| Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 | https://dashboard.whalepass.gg/api-key     |
+| Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN           | https://dashboard.whalepass.gg/campaigns   |
+| Body Field   | gameId           | { "gameId": "string" }               | https://dashboard.whalepass.gg/game-actions|
+| Body Field   | additionalExp    | { "additionalExp": Int }               | Provided by the user                     |
+
 
 Request:
 ```http
