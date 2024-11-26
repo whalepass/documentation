@@ -5,12 +5,11 @@ sidebar_position: 3
 
 ![Whalepass.gg](https://i.imgur.com/zwUqWaS.png)
 
-Method	Token Type	Location	Format
-GET	Bearer Token	Authorization Header	Authorization: Bearer YOURTOKEN
-POST	Header Token	X-API-KEY Header	X-API-KEY: YOURTOKEN
-GET	Query Token	Request Parameter	/endpoint?api_key=YOURTOKEN
-DELETE	Bearer Token	Authorization Header	Authorization: Bearer YOURTOKEN
-PUT	Header Token	X-API-KEY Header	X-API-KEY: YOURTOKEN
+| Left |  Center  | Right |
+|:-----|:--------:|------:|
+| L0   | **bold** | $1600 |
+| L1   |  `code`  |   $12 |
+| L2   | _italic_ |    $1 |
 
 Request:
 ```http
