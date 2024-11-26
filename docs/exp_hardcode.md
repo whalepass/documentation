@@ -5,6 +5,8 @@ sidebar_position: 4
 
 ![Whalepass.gg](https://i.imgur.com/zwUqWaS.png)
 
+his table outlines the token types and body fields required for API requests, their locations, formats, and where to find or provide the necessary values.
+
 | Token Type   | Location         | Format                               | Where To Find                              |
 |:------------:|:----------------:|--------------------------------------:|-------------------------------------------:|
 | Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 | https://dashboard.whalepass.gg/api-key     |
