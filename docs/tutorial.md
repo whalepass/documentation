@@ -212,13 +212,13 @@ When making API calls, include the following headers in your request:
 
 ### Finding Your Game Action ID
 
-1. Navigate to the [Game Actions Page](https://dashboard-staging.whalepass.gg/game-actions).
+1. Navigate to the [Game Actions Page](https://dashboard.whalepass.gg/game-actions).
 2. Look for the specific Game Action you need.
 3. Copy the **Game Action ID** listed next to each Game Action.
 
 ### Finding Your Challenge ID
 
-1. Go to the [Campaigns Page](https://dashboard-staging.whalepass.gg/campaigns).
+1. Go to the [Campaigns Page](https://dashboard.whalepass.gg/campaigns).
 2. Select your campaign and navigate to the **Setup Challenges** section.
 3. Locate the challenge you need and copy its **Challenge ID**.
 
