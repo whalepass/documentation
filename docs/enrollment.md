@@ -6,10 +6,11 @@ sidebar_position: 3
 ![Whalepass.gg](https://i.imgur.com/zwUqWaS.png)
 
 | Token Type   | Location         | Format                               |
-|:------------:|:--------------  :|-------------------------------------:|
-| Bearer Token | Authorization    | Authorization: Bearer YOURTOKEN      |
-| Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 |
-| Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN           |
+|:------------:|:---------------:|-------------------------------------:|
+| Bearer Token | Authorization    | Authorization: Bearer YOURTOKEN     |
+| Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                |
+| Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN          |
+
 
 Request:
 ```http
