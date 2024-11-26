@@ -8,10 +8,10 @@ sidebar_position: 3
 This table specifies the token types used in API requests, along with the corresponding headers and formats. It also provides the relevant URLs for each token.
 
 | Token Type   | Location         | Format                               | URLs                                         |
-|:------------:|:---------------:|-------------------------------------:|---------------------------------------------:|
-| Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                | https://dashboard.whalepass.gg/api-key      |
-| Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN          | https://dashboard.whalepass.gg/campaigns    |
-| Body Field   | gameId           | { "gameId": "string" }              | https://dashboard-staging.whalepass.gg/game-actions |
+|:------------:|:----------------:|--------------------------------------:|---------------------------------------------:|
+| Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 | https://dashboard.whalepass.gg/api-key      |
+| Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN           | https://dashboard.whalepass.gg/campaigns    |
+| Body Field   | gameId           | { "gameId": "string" }               | https://dashboard.whalepass.gg/game-actions |
 
 
 Request:
