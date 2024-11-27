@@ -13,7 +13,6 @@ This table specifies the token types used in API requests, along with the corres
 | Body Field   | gameId           | { "gameId": "string" }               | https://dashboard.whalepass.gg/game-actions|
 | Body Field   | playerId         | { "playerId": "string" }             | Provided by the user                       |
 
-
 Request:
 ```http
 POST https://api.whalepass.gg/enrollments
