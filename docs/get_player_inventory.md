@@ -10,8 +10,8 @@ This endpoint returns player's inventory for a game
 | Token Type   | Location         | Format                               | Where To Find                                                       |
 |:------------:|:----------------:|--------------------------------------:|-------------------------------------------------------------------:|
 | Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 | https://dashboard.whalepass.gg/api-key                              |
-| Path Field   | playerId         | { "playerId": "string" }             | You can find in response                                            |
-| Path Field   | gameId           | { "gameId": "string" }               | https://www.whalepass.gg/documentation/tutorial#finding-your-game-id|
+| Path Field   | playerId         | \{ "playerId": "string" }             | You can find in response                                            |
+| Path Field   | gameId           | \{ "gameId": "string" }               | https://www.whalepass.gg/documentation/tutorial#finding-your-game-id|
 
 Request:
 ```http
