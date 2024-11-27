@@ -11,9 +11,9 @@ This table outlines the token types and body fields required for API requests, t
 |:------------:|:----------------:|--------------------------------------:|-------------------------------------------------------------------:|
 | Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 | https://dashboard.whalepass.gg/api-key                              |
 | Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN           | https://dashboard.whalepass.gg/campaigns                            |
-| Path Field   | playerId         | { "playerId": "string" }             | You can find in response                                            |
-| Body Field   | gameId           | { "gameId": "string" }               | https://www.whalepass.gg/documentation/tutorial#finding-your-game-id|
-| Body Field   | additionalExp    | { "additionalExp": Int }             | Provided by the user                                                |
+| Path Field   | playerId         | \{ "playerId": "string" }             | You can find in response                                            |
+| Body Field   | gameId           | \{ "gameId": "string" }               | https://www.whalepass.gg/documentation/tutorial#finding-your-game-id|
+| Body Field   | additionalExp    | \{ "additionalExp": Int }             | Provided by the user                                                |
 
 
 Request:
