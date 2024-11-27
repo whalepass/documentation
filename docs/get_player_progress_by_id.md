@@ -9,6 +9,14 @@ sidebar_position: 8
 
 To test specific DRAFT Battlepass, add X-Battlepass-Id header to request
 
+| Token Type   | Location         | Format                               | Where To Find                              |
+|:------------:|:----------------:|--------------------------------------:|-------------------------------------------:|
+| Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 | https://dashboard.whalepass.gg/api-key     |
+| Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN           | https://dashboard.whalepass.gg/campaigns   |
+| Body Field   | playerIds        | { "playerIds": "string" }            | You can find in response                   |
+| Body Field   | gameId           | { "gameId": "string" }               | https://dashboard.whalepass.gg/game-actions|
+
+
 Request:
 ```http
 GET https://api.whalepass.gg/players/progress
