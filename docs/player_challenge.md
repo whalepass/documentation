@@ -5,13 +5,13 @@ sidebar_position: 6
 
 ![Whalepass.gg](https://i.imgur.com/zwUqWaS.png)
 
-| Token Type   | Location         | Format                               | Where To Find                              |
-|:------------:|:----------------:|--------------------------------------:|-------------------------------------------:|
-| Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 | https://dashboard.whalepass.gg/api-key     |
-| Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN           | https://dashboard.whalepass.gg/campaigns   |
-| Path Field   | playerId         | { "playerId": "string" }             | You can find in response                   |
-| Body Field   | gameId           | { "gameId": "string" }               | https://dashboard.whalepass.gg/game-actions|
-| Body Field   | challengeId      | { "challengeId": "string" }          | https://dashboard.whalepass.gg/campaigns   |
+| Token Type   | Location         | Format                               | Where To Find                                                       |
+|:------------:|:----------------:|--------------------------------------:|-------------------------------------------------------------------:|
+| Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 | https://dashboard.whalepass.gg/api-key                              |
+| Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN           | https://dashboard.whalepass.gg/campaigns                            |
+| Path Field   | playerId         | { "playerId": "string" }             | You can find in response                                            |
+| Body Field   | gameId           | { "gameId": "string" }               | https://www.whalepass.gg/documentation/tutorial#finding-your-game-id|
+| Body Field   | challengeId      | { "challengeId": "string" }          | https://dashboard.whalepass.gg/campaigns                            |
 
 Request:
 ```http
