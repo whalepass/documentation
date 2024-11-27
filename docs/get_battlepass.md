@@ -8,7 +8,7 @@ sidebar_position: 10
 | Token Type   | Location         | Format                               | Where To Find                              |
 |:------------:|:----------------:|--------------------------------------:|-------------------------------------------:|
 | Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 | https://dashboard.whalepass.gg/api-key     |
-| Path Field   | {battlepassId}   | battlepass/{battlepassId}            | https://dashboard.whalepass.gg/campaigns   |
+| Path Field   | \{battlepassId}   | battlepass/{battlepassId}            | https://dashboard.whalepass.gg/campaigns   |
 
 Request:
 ```http
