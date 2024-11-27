@@ -10,8 +10,8 @@ This table specifies the token types used in API requests, along with the corres
 | Token Type   | Location         | Format                               | Where To Find                                                       |
 |:------------:|:----------------:|--------------------------------------:|-------------------------------------------------------------------:|
 | Header Token | X-API-KEY        | X-API-KEY: YOURTOKEN                 | https://dashboard.whalepass.gg/api-key                              |
-| Body Field   | gameId           | \{ "gameId": "string" }               | https://www.whalepass.gg/documentation/tutorial#finding-your-game-id|
-| Body Field   | playerId         | \{ "playerId": "string" }             | Provided by the user                                                |
+| Body Field   | gameId           | \{ "gameId": "string" \}               | https://www.whalepass.gg/documentation/tutorial#finding-your-game-id|
+| Body Field   | playerId         | \{ "playerId": "string" \}             | Provided by the user                                                |
 
 Request:
 ```http
