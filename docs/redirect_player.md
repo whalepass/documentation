@@ -13,7 +13,6 @@ For getting a redirection link so player can connect or create a Whalepass accou
 | Header Token | X-Battlepass-Id  | X-Battlepass-Id: YOURTOKEN           | https://dashboard.whalepass.gg/campaigns   |
 | Path Field   | playerId         | { "playerId": "string" }             | You can find in response                   |
 | Path Field   | gameId           | { "gameId": "string" }               | https://dashboard.whalepass.gg/game-actions|
-| Body Field   | redirectionLink  | { "redirectionLink": "string" }      | https://dashboard.whalepass.gg/campaigns   |
 
 Request:
 ```http
